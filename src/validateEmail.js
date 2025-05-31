@@ -1,10 +1,11 @@
-'use strict';
+"use strict";
 
 /**
  * @param {string} email
  *
  * @returns {boolean}
  */
+
 function validateEmail(email) {
   // eslint-disable-next-line
   const validEmailMask = new RegExp(
